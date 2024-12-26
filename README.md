@@ -41,7 +41,9 @@ Description: Deletes an event based on its ID.
 
  `POST`  http://localhost:3000/api/v3/app/events 
         >Run the above url in the postman by using POST method
+        Example:
         Enter the below json data in the body to store by id
+        
     {
     "name": "Event Name",
     "tagline": "Event Tagline",
@@ -55,15 +57,17 @@ Description: Deletes an event based on its ID.
     "image": "image.jp"
     }
 
-    Note: Already the above json data is stored in the DB(Try changing the values)
+    Note: Already the above json data is stored in my DB(Try changing the values)
 
  `GET`  http://localhost:3000/api/v3/app/events?id= **event_id** \
+        Example:
         CheckOut this link to see the above stored data by id: 
         Link: http://localhost:3000/api/v3/app/events?id=676d0a3a1d924a837e8edbfc
 
 >Same procedure should be followed for the following methods 
 
  `PUT`  http://localhost:3000/api/v3/app/events/ **:id** \
+        Example:
         CheckOut this link to Update the stored data by id:
         Link: http://localhost:3000/api/v3/app/events/676d0a3a1d924a837e8edbfc
         Enter the below updated json data in the body to update by id:
@@ -83,8 +87,11 @@ Description: Deletes an event based on its ID.
 
   
  `DEL`  http://localhost:3000/api/v3/app/events/ **:id** 
+        Example:
         CheckOut this link to Delete the event by id:
         Link: http://localhost:3000/api/v3/app/events/676d0a3a1d924a837e8edbfc
+        
+Note: The provided examples are tried locally they may not work for you.
 
 # How to Run
 
