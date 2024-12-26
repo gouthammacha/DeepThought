@@ -40,10 +40,9 @@ Description: Deletes an event based on its ID.
  Sample Examples:
 
  `POST`  http://localhost:3000/api/v3/app/events 
- >Run the above url in the postman by using POST method
- 
- Enter the below json data in the body to store by id
- {
+        >Run the above url in the postman by using POST method
+        Enter the below json data in the body to store by id
+    {
      "name": "Event Name",
     "tagline": "Event Tagline",
     "schedule": "2024-12-25T10:00:00.000Z",
@@ -54,18 +53,19 @@ Description: Deletes an event based on its ID.
     "rigor_rank": 5,
     "attendees": [],
     "image": "image.jp"
-}
-Note: Already the above json data is stored in the DB(Try changing the values)
+    }
+
+    Note: Already the above json data is stored in the DB(Try changing the values)
 
  `GET`  http://localhost:3000/api/v3/app/events?id= **event_id** \
         CheckOut this link to see the above stored data by id: 
-        Link: http://localhost:3000/api/v3/app/events?id=676d02fd1d924a837e8edbfb
+        Link: http://localhost:3000/api/v3/app/events?id=676d0a3a1d924a837e8edbfc
 
 >Same procedure should be followed for the following methods 
 
  `PUT`  http://localhost:3000/api/v3/app/events/ **:id** \
         CheckOut this link to Update the stored data by id:
-        Link: http://localhost:3000/api/v3/app/events/676d02fd1d924a837e8edbfb
+        Link: http://localhost:3000/api/v3/app/events/676d0a3a1d924a837e8edbfc
         Enter the below updated json data in the body to update by id:
 
     {
@@ -84,7 +84,7 @@ Note: Already the above json data is stored in the DB(Try changing the values)
   
  `DEL`  http://localhost:3000/api/v3/app/events/ **:id** 
         CheckOut this link to Delete the event by id:
-        Link: http://localhost:3000/api/v3/app/events/676d02fd1d924a837e8edbfb
+        Link: http://localhost:3000/api/v3/app/events/676d0a3a1d924a837e8edbfc
 
 # How to Run
 
