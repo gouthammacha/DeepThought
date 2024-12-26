@@ -1,7 +1,7 @@
 # Task - 1
 
 # API Creation and performing CRUD Operations
-# These files are for the challenge provided by Deep Thought as a test.
+# These files are for the challenge provided by Deep Thought as an Technical Assignment.
 
 Available Scripts
 In the project directory, you can run:
