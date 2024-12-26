@@ -1,5 +1,6 @@
 # Task - 1
 
+# API Creation and performing CRUD Operations
 # These files are for the challenge provided by Deep Thought as a test.
 
 Available Scripts
@@ -40,7 +41,8 @@ Description: Deletes an event based on its ID.
  Sample Examples:
 
  `POST`  http://localhost:3000/api/v3/app/events 
-        >Run the above url in the postman by using POST method
+        >Run the above url in the postman by using POST method followed by entering json data in the body
+        
         Example:
         Enter the below json data in the body to store by id
         
@@ -60,13 +62,13 @@ Description: Deletes an event based on its ID.
     Note: Already the above json data is stored in my DB(Try changing the values)
 
  `GET`  http://localhost:3000/api/v3/app/events?id= **event_id** \
+ 
         Example:
         CheckOut this link to see the above stored data by id: 
         Link: http://localhost:3000/api/v3/app/events?id=676d0a3a1d924a837e8edbfc
 
->Same procedure should be followed for the following methods 
-
  `PUT`  http://localhost:3000/api/v3/app/events/ **:id** \
+ 
         Example:
         CheckOut this link to Update the stored data by id:
         Link: http://localhost:3000/api/v3/app/events/676d0a3a1d924a837e8edbfc
@@ -87,6 +89,7 @@ Description: Deletes an event based on its ID.
 
   
  `DEL`  http://localhost:3000/api/v3/app/events/ **:id** 
+ 
         Example:
         CheckOut this link to Delete the event by id:
         Link: http://localhost:3000/api/v3/app/events/676d0a3a1d924a837e8edbfc
