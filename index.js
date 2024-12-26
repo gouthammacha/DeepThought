@@ -7,9 +7,9 @@ const app = express();
 app.use(express.json());
 app.use(cors());
 
-const port = 3000;
-const mongoUrl = 'mongodb+srv://goutham_chotu:I0Kj5gHXrDFlb0IG@cluster1.cfvos.mongodb.net/project1';
-const dbName = 'project1';
+const port = 3000; //Change the port number if it is not working
+const mongoUrl = 'mongodb+srv://goutham_chotu:I0Kj5gHXrDFlb0IG@cluster1.cfvos.mongodb.net/project1'; //specify your database url 
+const dbName = 'project1'; //specify your database name
 
 
 const storage = multer.diskStorage({
