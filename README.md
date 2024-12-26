@@ -43,7 +43,7 @@ Description: Deletes an event based on its ID.
         >Run the above url in the postman by using POST method
         Enter the below json data in the body to store by id
     {
-     "name": "Event Name",
+    "name": "Event Name",
     "tagline": "Event Tagline",
     "schedule": "2024-12-25T10:00:00.000Z",
     "description": "Event Description",
